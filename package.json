@@ -1,0 +1,11 @@
+{
+  "name": "package.json",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.1",
+    "express-route-controller": "0.0.4",
+    "mongoose": "^4.1.9",
+    "morgan": "^1.6.1"
+  }
+}
