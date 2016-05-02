@@ -13,15 +13,12 @@ module.exports = mongoose.connection;
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
- 
-// Add headers
-app.use('cors');
 
 app.use(logger('dev')); 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser({limit: '115mb'}));
-
+app.use(cors());
 app.listen(3000, function() {
   console.log('Express server listening on port ' + 3000);
 });
