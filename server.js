@@ -6,7 +6,7 @@ var Schema = mongoose.Schema;
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 var cors = require('cors')
-mongoose.connect('mongodb://localhost:27017/mean');
+mongoose.connect('mongodb://MEAN:mean123@ds053439.mlab.com:53439/jitendra');
 
 module.exports = mongoose.connection;
 
