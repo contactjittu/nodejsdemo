@@ -16,7 +16,6 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
-
 app.use(helmet());
 app.use(cors());
 app.use(logger('dev'));
