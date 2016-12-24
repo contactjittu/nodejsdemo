@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - goo.gl > request > hawk:
+        patched: '2016-12-24T10:25:42.982Z'
+  'npm:request:20160119':
+    - goo.gl > request:
+        patched: '2016-12-24T10:25:42.982Z'
