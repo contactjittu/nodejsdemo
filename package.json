@@ -12,11 +12,12 @@
     "helmet": "^3.8.2",
     "mongoose": "^4.1.9",
     "morgan": "^1.6.1",
-    "snyk": "^1.41.1"
+    "snyk": "^1.105.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }
