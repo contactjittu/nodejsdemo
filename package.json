@@ -12,7 +12,7 @@
     "helmet": "^3.8.2",
     "mongoose": "^4.1.9",
     "morgan": "^1.6.1",
-    "snyk": "^1.41.1"
+    "snyk": "^1.316.2"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
