@@ -10,7 +10,7 @@
     "express-route-controller": "0.0.4",
     "goo.gl": "^0.1.4",
     "helmet": "^3.8.2",
-    "mongoose": "^4.1.9",
+    "mongoose": "^5.12.3",
     "morgan": "^1.6.1",
     "snyk": "^1.41.1"
   },
